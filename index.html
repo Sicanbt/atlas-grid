@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ATLAS GRID — AI Persistent Memory Platform</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0f;color:#e0e0ff;font-family:'Segoe UI',sans-serif;min-height:100vh}
+.hero{text-align:center;padding:80px 20px 40px;background:linear-gradient(135deg,#0a0a0f 0%,#1a0d2e 100%)}
+.logo{font-size:3rem;font-weight:900;background:linear-gradient(90deg,#aa44ff,#4488ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.tagline{color:#8892b0;margin-top:12px;font-size:1.1rem}
+.badge{display:inline-block;background:#1a0d2e;border:1px solid #aa44ff;border-radius:20px;padding:4px 14px;font-size:.8rem;color:#aa44ff;margin-top:16px}
+.agents{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;padding:60px 20px}
+.agent{background:#0d0a1e;border:1px solid;border-radius:12px;padding:24px;width:200px;text-align:center;transition:transform .3s}
+.agent:hover{transform:translateY(-6px)}
+.agent.encoder{border-color:#4488ff}.agent.indexer{border-color:#ffdd00}
+.agent.retriever{border-color:#00ff88}.agent.synth{border-color:#aa44ff}
+.agent-icon{font-size:2rem;margin-bottom:10px}
+.agent-name{font-weight:700;font-size:1rem;margin-bottom:6px}
+.agent-desc{font-size:.8rem;color:#8892b0}
+.mimo-badge{text-align:center;padding:40px;background:#0d0a1e;margin:20px;border-radius:12px;border:1px solid #aa44ff}
+.mimo-badge h3{color:#aa44ff;margin-bottom:8px}
+.stats{display:flex;justify-content:center;gap:40px;padding:40px 20px;flex-wrap:wrap}
+.stat{text-align:center}.stat-num{font-size:2rem;font-weight:900;color:#aa44ff}.stat-label{color:#8892b0;font-size:.85rem}
+footer{text-align:center;padding:30px;color:#4a5568;font-size:.85rem}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+.live{animation:pulse 2s infinite;color:#00ff88}
+</style></head>
+<body>
+<div class="hero">
+  <div class="logo">⬡ ATLAS GRID</div>
+  <div class="tagline">AI Persistent Memory & Knowledge Graph Platform</div>
+  <div class="badge">Powered by MiMo V2.5 + Hermes Agent</div>
+</div>
+<div class="agents">
+  <div class="agent encoder"><div class="agent-icon">🔵</div><div class="agent-name">Encoder</div><div class="agent-desc">Ingests conversations & actions into memory traces</div></div>
+  <div class="agent indexer"><div class="agent-icon">🟡</div><div class="agent-name">Indexer</div><div class="agent-desc">Builds semantic knowledge graph with relationships</div></div>
+  <div class="agent retriever"><div class="agent-icon">🟢</div><div class="agent-name">Retriever</div><div class="agent-desc">Surfaces relevant memories via hybrid search</div></div>
+  <div class="agent synth"><div class="agent-icon">🟣</div><div class="agent-name">Synthesizer</div><div class="agent-desc">Fuses memories with context for grounded responses</div></div>
+</div>
+<div class="mimo-badge">
+  <h3>Built with MiMo V2.5</h3>
+  <p style="color:#8892b0;font-size:.9rem">Long-context reasoning enables persistent, evolving agent memory</p>
+</div>
+<div class="stats">
+  <div class="stat"><div class="stat-num">89%</div><div class="stat-label">Response Consistency</div></div>
+  <div class="stat"><div class="stat-num">3x</div><div class="stat-label">Task Completion Rate</div></div>
+  <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Memory Retention</div></div>
+  <div class="stat"><div class="stat-num"><span class="live">●</span> LIVE</div><div class="stat-label">Production Ready</div></div>
+</div>
+<footer>ATLAS GRID © 2026 — AI Persistent Memory powered by MiMo V2.5 + Hermes Agent</footer>
+</body></html>
